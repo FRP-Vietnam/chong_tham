@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giải Pháp Chống Thấm - Chống Nóng Dân Dụng & Công Nghiệp TP.HCM và Lân Cận</title>
+    <meta name="description" content="Chuyên cung cấp giải pháp chống thấm sàn mái lộ thiên, sàn WC, toilet, hầm, bọc phủ composite FRP chống ăn mòn tại TP.HCM và lân cận. Hotline: 0917458639.">
+    <style>
+        :root {
+            --primary-color: #0056b3;
+            --secondary-color: #ff6600;
+            --dark-color: #222;
+            --light-color: #f8f9fa;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { line-height: 1.6; color: #333; background-color: #fff; }
+        
+        header { background: #fff; box-shadow: 0 2px 5px rgba(0,0,0,0.1); position: sticky; top: 0; z-index: 1000; }
+        .top-bar { background: var(--dark-color); color: #fff; padding: 5px 20px; font-size: 0.9rem; display: flex; justify-content: space-between; align-items: center; }
+        .top-bar a { color: #fff; text-decoration: none; margin-left: 15px; }
+        .nav-container { display: flex; justify-content: space-between; align-items: center; padding: 10px 20px; max-width: 1200px; margin: 0 auto; }
+        .logo-group { display: flex; align-items: center; gap: 15px; }
+        .logo-group img { height: 50px; object-fit: contain; }
+        nav ul { display: flex; list-style: none; gap: 20px; }
+        nav a { text-decoration: none; color: var(--dark-color); font-weight: 600; text-transform: uppercase; font-size: 0.9rem; transition: 0.3s; }
+        nav a:hover { color: var(--secondary-color); }
+        
+        .hero { background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://via.placeholder.com/1920x600') center/cover; color: #fff; text-align: center; padding: 100px 20px; }
+        .hero h1 { font-size: 2.3rem; margin-bottom: 15px; text-transform: uppercase; line-height: 1.3; }
+        .hero p { font-size: 1.1rem; max-width: 800px; margin: 0 auto 25px; }
+        .btn { display: inline-block; background: var(--secondary-color); color: #fff; padding: 12px 30px; text-decoration: none; border-radius: 5px; font-weight: bold; text-transform: uppercase; }
+        
+        .container { max-width: 1200px; margin: 40px auto; padding: 0 20px; }
+        .section-title { text-align: center; margin-bottom: 30px; font-size: 2rem; color: var(--primary-color); text-transform: uppercase; position: relative; }
+        
+        .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; }
+        .card { border: 1px solid #ddd; border-radius: 8px; overflow: hidden; background: #fff; transition: 0.3s; }
+        .card:hover { box-shadow: 0 5px 15px rgba(0,0,0,0.15); }
+        .card img { width: 100%; height: 200px; object-fit: cover; }
+        .card-body { padding: 20px; }
+        .card-body h3 { margin-bottom: 10px; color: var(--primary-color); }
+
+        footer { background: var(--dark-color); color: #fff; padding: 40px 20px 10px; margin-top: 50px; }
+        .footer-content { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
+        .footer-bottom { text-align: center; margin-top: 30px; padding-top: 15px; border-top: 1px solid #444; font-size: 0.85rem; }
+
+        @media (max-width: 768px) {
+            .nav-container { flex-direction: column; gap: 15px; }
+            nav ul { flex-wrap: wrap; justify-content: center; gap: 10px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-bar">
+        <div>📍 Khu vực thi công: <strong>TP.HCM và Lân Cận</strong> | Hotline: <strong>0917458639</strong></div>
+        <div>Email: Chongthamvinhvien@gmail.com</div>
+    </div>
+
+    <header>
+        <div class="nav-container">
+            <div class="logo-group">
+                <img src="Giải pháp Xây dựng-01 b.jpg" alt="Logo Chống Thấm TITI">
+                <img src="Mail.jpg" alt="Logo Chống Thấm Vĩnh Viễn" onerror="this.style.display='none'">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#gioi-thieu">Giới Thiệu</a></li>
+                    <li><a href="#chong-tham">Giải Pháp Chống Thấm</a></li>
+                    <li><a href="#chong-nong">Giải Pháp Chống Nóng</a></li>
+                    <li><a href="#cong-trinh">Phân Tích Công Trình</a></li>
+                    <li><a href="#tin-tuc">Tin Tức Xây Dựng</a></li>
+                    <li><a href="#lien-he">Liên Hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Giải Pháp Chống Thấm & Chống Nóng Đột Phá - Bảo Vệ Công Trình Lâu Dài tại TP.HCM và Lân Cận</h1>
+        <p>Ứng dụng Tấm Composite FWP-01 cho sàn, Tấm FHR-01 cho tường & Bọc phủ Composite FRP 3 lớp sợi thủy tinh bền vững theo thời gian.</p>
+        <a href="tel:0917458639" class="btn">Tư Vấn Trực Tiếp: 0917458639</a>
+    </section>
+
+    <main class="container">
+        <h2 class="section-title">Công Nghệ & Giải Pháp Cốt Lõi</h2>
+        <div class="grid-3">
+            <div class="card">
+                <img src="https://via.placeholder.com/400x250" alt="Tấm Composite FWP-01 chống thấm sàn mái lộ thiên">
+                <div class="card-body">
+                    <h3>Tấm Composite FWP-01 (Cho Sàn)</h3>
+                    <p>Giải pháp chống thấm sàn mái lộ thiên, sàn WC, toilet và chống thấm hầm vượt trội. Chịu lực tốt, ngăn nước tuyệt đối theo nguyên lý kháng phân tách lớp.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/400x250" alt="Tấm FHR-01 chống nóng công trình">
+                <div class="card-body">
+                    <h3>Tấm FHR-01 (Cho Tường)</h3>
+                    <p>Giải pháp chống nóng công trình và chống thấm tường đứng tối ưu. Cách nhiệt cực cao, giúp công trình luôn mát mẻ và tiết kiệm điện năng sinh hoạt.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/400x250" alt="Bọc phủ Composite FRP 3 lớp sợi thủy tinh">
+                <div class="card-body">
+                    <h3>Bọc Phủ Composite FRP 3 Lớp</h3>
+                    <p>Chuyên bọc phủ composite FRP chống ăn mòn bể xử lý nước thải, bể hóa chất công nghiệp. Độ bền vĩnh cửu, kháng hóa chất tối đa.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div>
+                <h3>CHỐNG THẤM VĨNH VIỄN</h3>
+                <p>Chuyên cung cấp giải pháp chống thấm, chống nóng dân dụng & công nghiệp hàng đầu tại TP.HCM và các khu vực lân cận.</p>
+            </div>
+            <div>
+                <h3>Từ Khóa Dịch Vụ</h3>
+                <p>Chống thấm sàn mái lộ thiên | Chống thấm sàn WC | Chống thấm hầm | Bọc phủ Composite FRP | Chống nóng công trình</p>
+            </div>
+            <div>
+                <h3>Thông Tin Liên Hệ</h3>
+                <p>📍 Khu vực hoạt động: TP.HCM & Lân Cận</p>
+                <p>📞 Điện thoại: <strong>0917458639</strong></p>
+                <p>✉️ Email: Chongthamvinhvien@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 GIẢI PHÁP CHỐNG THẤM - CHỐNG NÓNG. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
